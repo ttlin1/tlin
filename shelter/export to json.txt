@@ -1,0 +1,5 @@
+ogr2ogr -f GeoJSON X:\shelter_equity\json\census.json X:\shelter_equity\shp\census_tracts.shp -lco RFC7946=YES
+ogr2ogr -f GeoJSON X:\shelter_equity\json\existing_stops.json X:\shelter_equity\shp\active_stops.shp -lco RFC7946=YES
+ogr2ogr -f GeoJSON X:\shelter_equity\json\potential_stops.json X:\shelter_equity\shp\potential_stops.shp -lco RFC7946=YES
+ogr2ogr -f GeoJSON X:\shelter_equity\json\high_equity_needs.json X:\shelter_equity\shp\high_equity_needs.shp -lco RFC7946=YES
+ogr2ogr -f GeoJSON X:\shelter_equity\json\all_stops.json X:\shelter_equity\shp\all_stops.shp -lco RFC7946=YES

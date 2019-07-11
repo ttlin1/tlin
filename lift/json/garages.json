@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "Garage": "Nela", "Capacity": 73.0, "Lat": 45.543547, "Lon": -122.709603, "Existing": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.709603, 45.543547 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "Garage": "Merlo", "Capacity": 79.0, "Lat": 45.504587, "Lon": -122.846694, "Existing": 1 }, "geometry": { "type": "Point", "coordinates": [ -122.846694, 45.504587 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "Garage": "Powell", "Capacity": 114.0, "Lat": 45.494824, "Lon": -122.561738, "Existing": 1 }, "geometry": { "type": "Point", "coordinates": [ -122.561738, 45.494824 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "Garage": "Columbia", "Capacity": 73.0, "Lat": 45.571524, "Lon": -122.618756, "Existing": 0 }, "geometry": { "type": "Point", "coordinates": [ -122.618756, 45.571524 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "Garage": "Milwaukie", "Capacity": 73.0, "Lat": 45.452056, "Lon": -122.640143, "Existing": 0 }, "geometry": { "type": "Point", "coordinates": [ -122.640143, 45.452056 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "Garage": "Hogan", "Capacity": 73.0, "Lat": 45.500068, "Lon": -122.414714, "Existing": 0 }, "geometry": { "type": "Point", "coordinates": [ -122.41471858599999, 45.500078426000073 ] } }
+]
+}
