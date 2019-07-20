@@ -1,0 +1,207 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#headerImage {
+	max-height: 150px;
+}
+
+#containerDiv {
+	height: 100%;
+}
+
+#overlayPane {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#participationMapDiv {
+	height: 100%;
+	width: 100%;
+	/* margin: 0 auto; */
+	order: 1;
+}
+
+#headerLogo {
+	background-color: rgba(223, 41, 39, 1); /* #df2927 */
+	color: #fff;
+	padding: 8px 5px 3px 5px;
+}
+
+#headerLogo p, .custom-control-label label {
+	font-size: 16px;
+}
+
+.introText {
+	padding: 15px;
+}
+
+.leaflet-container {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.leaflet-popup-content {
+	line-height: 1;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip, .leaflet-tooltip {
+	background-color: rgba(0, 0, 0, 0.75);
+	/* background-color: rgba(63, 144, 167, 0.85); */
+	color: #fff;
+	max-width: 350px;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-tooltip {
+	border-radius: 3px;
+}
+
+.leaflet-tooltip {
+	border: 0px;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+#fullScreen {
+	height: 100vh;
+}
+
+#surveyForm textarea {
+	width: 90%;
+}
+
+.streetViewImagery {
+	width: 90%;
+	height: 300px;
+}
+
+/* @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.instructionsDiv {
+		width: 1000px;
+		padding-right: 100px;
+	}
+} */
+
+.legendDiv {
+	/* max-width: 300px; */
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	font-size: 14px;
+}
+
+.bikeShareLogo {
+	opacity: 0.85;
+}
+
+.bikeShareLogo:hover, .legendItem:hover {
+	opacity: 0.5;
+	transition: opacity 0.25s;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.light-blue-pvd {
+	color: #3F90A7;
+}
+
+.fa {
+	float: right;
+	padding: 10px 15px 0px 0px;
+}
+
+.pvdLogoDivContainer {
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	overflow-y: auto;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 576px) {
+	.sidebar-content {
+		background-color: rgba(255, 255, 255, 0.99);
+	}
+
+	.sidebar {
+		height: 93vh;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+	}
+}
+
+@media screen and (min-width: 577px) {
+	.sidebar-content {
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.bikeShareLogo {
+		max-height: 15vh;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#instructionsTextId {
+		max-width: 35vw;
+	}
+
+	.bikeShareLogo {
+		max-height: 15vh;
+		/* margin-top: 10vh; */
+	}
+}
+
+@media screen and (min-height: 577px) {
+	.pvdLogoDivContainer {
+		max-height: 50vh;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.pvdLogoDivContainer {
+		max-height: 60vh;
+	}
+}
+
+@media screen and (min-height: 801px) {
+	.pvdLogoDivContainer {
+		max-height: 65vh;
+	}
+}
+
+li#locationTab {
+	pointer-events: none;
+	cursor: default;
+}
+
+/* li#locationTab:hover {
+	background-color: #fff;
+	cursor: default;
+} */
+
+#clickReminderDiv {
+	margin: 5px 0px 0px 50px;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.leaflet-paddedTop {
+	position: relative;
+	z-index: 1000;
+	pointer-events: none;
+	top: 5%; /* possible because the placeholder's parent is the map */
+	right: 405px;
+	transform: translateY(-50%); /* using the CSS3 Transform technique */
+	padding-top: 10px;
+}

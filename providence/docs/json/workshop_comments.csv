@@ -1,0 +1,279 @@
+nbd_ID,nbd,ID,location,category,comment,neighborhood,project_id
+CW1,CW,1,Branch Ave @ Exit 146,Congestion,Congestion/Grid lock. ,Charles - Wanskuck,109
+CW2,CW,2,Charles St @ Silver Spring St,Congestion,Congestion.,Charles - Wanskuck,33
+CW3,CW,3,Hawkins St. Bridge,Connectivity,"Closed, needs to reopen.",Charles - Wanskuck,35
+CW4,CW,4,Silver Spring St,Maintenance,"Sidewalk needed facing north, where RR tracks are located.",Charles - Wanskuck,Corridor
+CW5,CW,5,North End of neighborhood,"Maintenance, cleanliness","Trash litter, especially at bus stops  need trash cans. Interpreted as [trash collects on sidewalks near] school.",Charles - Wanskuck,Area
+CW6,CW,6,Windmill St,"Speeding, parking","Speeding, cut through traffic, parking on sidewalk, (happens a lot on this street), stop sign ignored.",Charles - Wanskuck,Corridor
+CW7,CW,7,Vandewater St,"Congestion, cleanliness","Congestion and filthy, major clean up needed.",Charles - Wanskuck,32
+CW8,CW,8,Greenley St @ Alaska St,Safety,4-way stop but no one stops. Accident waiting to happen.,Charles - Wanskuck,Other intersection
+CW9,CW,9,Argol St,Traffic Controls,Used as a cut through. All-way stop sign would be helpful.,Charles - Wanskuck,Corridor
+CW10,CW,10,Ledge St,"Traffic calming, traffic control, Cleanliness",Cut through between Branch and Charles speedway. More accidents than ever. Interpreted as [speeding is a problem]. No traffic control to slow down traffic. No one puts garbage away.,Charles - Wanskuck,Corridor
+CW11,CW,11,Charles St @ Hawkins St,Crossing,Many ped crossing to/from church. Better crosswalk needed.,Charles - Wanskuck,109
+CW12,CW,12,146 @ Branch Ave,Congestion,Grid locked morning and night.,Charles - Wanskuck,Other comment
+CW13,CW,13,MacGregor St @ Stanhope St,"Parking, Cleanliness",Interpreted as [People often park at L on MacGregor St @ Stanhope St]. Possible drug use. Car once lit on fire. Narragansett St on the other side  dumping yards and other waste there. Sign put up but still a problem  no clean up. Asphalt broken up. Needs to be replaced.,Charles - Wanskuck,Corridor
+CW14,CW,14,Christopher St,Safety,"Steep include, icy and dangerous.",Charles - Wanskuck,General
+CW15,CW,15,All,Maintenance,"[Utility company] dug up streets, repaired, but not correctly. Are we getting funds to repair streets?",Charles - Wanskuck,Corridor
+CW16,CW,16,Charles St,"Cleanliness, littering","Lots of loitering, litter, bringing down neighborhood and property values. Businesses are leaving. People throw garbage [into street], no pick ups/pride.",Charles - Wanskuck,Corridor
+CW17,CW,17,Job St,Maintenance,Dip in middle of street. Cars park on both sides. Difficult to drive around. ,Charles - Wanskuck,Other intersection
+CW18,CW,18,Smart St @ Windmill,Speeding,"Cut through on Windmill. [interpreted as] People drive fast down Smart St which is a one way, very narrow road. ",Charles - Wanskuck,Corridor
+CW19,CW,19,Smithfield Ave,"Geometry, traffic ops, safety","5 lane road, multiple crashes, woman killed last year. Interpreted as [wide road with] 4 to 5 lanes, 3 lights going one way. Convergence point to I95.",Charles - Wanskuck,109
+CW20,CW,20,Langdon St,Infrastructure,Too many speed bumps. Interpreted as [People park their cars close and near to the speed bumps].,Charles - Wanskuck,0
+CW21,CW,21,Charles St,Illegal activity,"Citizen cuts trees for heating his house. From Charles St  goes up and down street, cutting down trees. Has chain saw.",Charles - Wanskuck,#N/A
+CW22,CW,22,Silver Spring St @ Urgent Care Entrance,Geometry,"Very poor design, hard to get in through single entrance. Interpreted as [Have tired] to go [in through] gas station, no yield [sign]. [Ingress and egress] is challenging.",Charles - Wanskuck,#N/A
+CW23,CW,23,Windmill St School,Unused building,"Closed for years, vacant, could be put to better use. Housing? Or other uses? Not earning tax money. Eye Sore.",Charles - Wanskuck,#N/A
+DT1,DT,1,Point St @ Eddy St,"Traffic Ops, Safety",Difficult to cross. Unclear on where pedestrians should cross  and [when] it is safe. Traffic signal not timed for pedestrians,Downtown,143
+DT2,DT,2,General,Sidewalk maintenance,Trees pushing up sidewalk.,Downtown,General
+DT3,DT,3,Richmond St @ Clifford St,Lighting,[Request for] pedestrian scale lighting along City Walk.,Downtown,3
+DT4,DT,4,Pine St,"Safety, traffic ops",Extremely dangerous speeds; vehicles dont come to complete stops @ stop signs.,Downtown,5
+DT5,DT,5,Friendship St,"Safety, traffic calming, parking","Extremely dangerous, vehicles do not come to a complete stops @ stop signs. [People use] parking lanes as travel lanes, parking is not apparent.",Downtown,4
+DT6,DT,6,Jacqueline Clements Park,Illegal activity,Attracts users (from outside the community) of drugs and substance abuse; within the sight of children. This is along the City Walk path.,Downtown,0
+DT7,DT,7,Providence Pl @ Harris Ave,"Pot hole, Maintenance","[Pot] holes in street and on bridge at the end of Providence Place Street. Hole repaired with metal plate, but plates keep moving.",Downtown,100
+DT8,DT,8,John J Partington Way,"Pot hole, Maintenance","John J Partington Way near police station, Asphalt 3-4 inches [which causes] bad jolt to car, high ridge.",Downtown,Other intersection
+DT9,DT,9,Charles St @ Randall St,"Geometry, Safety.",Intersection is complicated. Hard to know when cars are going and if they will stop [as cyclist].,Downtown,103
+DT10,DT,10,Providence Pl @ I-95 underpass,Cleanliness,All kinds of trash and debris.,Downtown,100
+DT11,DT,11,Bassett St @ Chestnut St,Maintenance,"Street is years overdue for improvement. Needs complete reconstruction. Utility company is aware but, says its not (interpreted as) [their responsibility].",Downtown,Other intersection
+DT12,DT,12,I 95 @ Brownell St,Crossing,Pedestrian and bike bridge needed over highway.,Downtown,New project
+DT13,DT,13,Spruce to Harris over US Rt 6,Crossing,Pedestrian and bike bridge needed over highway.,Downtown,New project
+DT14,DT,14,Memorial Blvd @ College/Westminster St,Traffic Calming,Traffic calming @ Memorial Blvd @ College/Westminster. Protected bike lane along Memorial Blvd.,Downtown,126
+DT15,DT,15,Dyer St,"Crossing, Traffic Ops","On Dyer St by the new Wexford development, stop sign needed to cross to/from the park and bridge.",Downtown,Uncertain location
+DT16,DT,16,Fountain Street,Cyclist Safety,"Interpreted as [Would] like protected lane, but should be longer and more protected with planters, and [highlighted with] green bike lane paint.",Downtown,Corridor
+DT17,DT,17,Chestnut St,"Sidewalk, maintenance",Sidewalk broken and in disrepair.,Downtown,18
+EMM1,EMM,1,Basswood Ave @ Mt Pleasant Ave,Wayfinding,Not good signage for Rhode Island College (RIC)  need signs on side streets near RIC [to inform drivers] that there is no access to RIC from Basswood.,Elmhurst  Mt. Pleasant  Manton,1
+EMM2,EMM,2,Veazie St,Crossing,Need crosswalk by the library.,Elmhurst  Mt. Pleasant  Manton,122
+EMM3,EMM,3,Chalkstone Ave @ Academy Ave,Wayfinding,"Need better signs and enforcement to keep people from parking too close to the crosswalk, narrow.",Elmhurst  Mt. Pleasant  Manton,25
+EMM4,EMM,4,Dean St @ US Rt 6,Crossing,Dean street! Impossible to walk across entrance to 6/10 connector.,Elmhurst  Mt. Pleasant  Manton,7
+EMM5,EMM,5,Mt Pleasant Ave,Speeding,Speeding issues on Mt Pleasant.,Elmhurst  Mt. Pleasant  Manton,1
+EMM6,EMM,6,Smith St,Speeding,Speeding on Smith St.,Elmhurst  Mt. Pleasant  Manton,23
+EMM7,EMM,7,Smith St @ Longwood Ave,Crossing,"#57 bus stops near side of intersections, crosswalk is on wrong side of the intersections to Smith St or bus stop should move to far side of the crosswalk.",Elmhurst  Mt. Pleasant  Manton,Other intersection
+EMM8,EMM,8,Eaton St @ Smith St,Pedestrian Safety,Dangerous for pedestrians & cars  no clear crosswalk and cars dont look for pedestrians.,Elmhurst  Mt. Pleasant  Manton,Other intersection
+EMM9,EMM,9,Burns St,Traffic ops,"Burns St is one way, but stop bar @ stop signs only goes half way across street  makes it appear 2 way and encourages wrong way driving.",Elmhurst  Mt. Pleasant  Manton,Corridor
+EMM10,EMM,10,Smith St @ Oakland Ave,Geometry,2 lanes east and one west  west should also be split into two  cars turn left hold up traffic,Elmhurst  Mt. Pleasant  Manton,23
+EMM11,EMM,11,Pleasant Valley Parkway,Pedestrian Comfort,Need benches on Pleasant Valley Parkway,Elmhurst  Mt. Pleasant  Manton,28
+EMM12,EMM,12,Pleasant Valley Parkway @ Nelson and Academy,Flooding,Flooding of Pleasant Valley Parkway  esp. by Academy/Nelson,Elmhurst  Mt. Pleasant  Manton,28
+EMM13,EMM,13,Pleasant Valley Parkway,Cleanliness,Need to get people to pick up dog poop.,Elmhurst  Mt. Pleasant  Manton,0
+EMM14,EMM,14,Smith St. @ Quincy St,Utilities,Bury power line on Smith St.,Elmhurst  Mt. Pleasant  Manton,Other intersection
+EMM15,EMM,15,Mt Pleasant Ave @ Cathedral Ave,"Traffic Ops, Geometry",Cathedral Ave should be dead ended,Elmhurst  Mt. Pleasant  Manton,1
+EMM16,EMM,16,Mt Pleasant Ave,"Speeding, Safety",Needs to be reimagined to make bike/ped/micro mobility option safer  care speeding issues.,Elmhurst  Mt. Pleasant  Manton,1
+EMM17,EMM,17,Gentian Ave,Speeding,"Need speed reduction, esp. near curve near Ravenswood. People go too fast in cars.",Elmhurst  Mt. Pleasant  Manton,Corridor
+EMM18,EMM,18,Ravenswood Ave,Geometry,Ravenswood is one way  should be two way or signed better to make one way clear.,Elmhurst  Mt. Pleasant  Manton,Corridor
+EMM19,EMM,19,Gentian Ave @ Hillside Dr,Geometry,Intersection very wide.,Elmhurst  Mt. Pleasant  Manton,Other intersection
+EMM20,EMM,20,Gentian Ave @ Isabella Ave,Safety,Cars dont stop at stop sign.,Elmhurst  Mt. Pleasant  Manton,Other intersection
+EMM21,EMM,21,Academy Ave @ Smith St,Congestion,"Very congested, parking on both sides makes it very narrow",Elmhurst  Mt. Pleasant  Manton,24
+EMM22,EMM,22,Smith St,Active Transportation,"Smith St needs bike lanes, trees, etc. Needs to be 100% micro mobility accessible.",Elmhurst  Mt. Pleasant  Manton,23
+EMM23,EMM,23,Douglas Ave @ River Ave,"Congestion, Traffic Ops","Busy intersections, L-turn onto dangles is obstructed by fence. Traffic Light?",Elmhurst  Mt. Pleasant  Manton,Other intersection
+EMM24,EMM,24,Mt Pleasant Ave @ Cathedral Ave,Crossing,Crosswalks not ADA accessible,Elmhurst  Mt. Pleasant  Manton,1
+EMM25,EMM,25,Pembroke St @ Amity St,Maintenance,Paving is terrible! 3 foot closest to the curb are totally wrenched so I ride in the street instead of on the edge.,Elmhurst  Mt. Pleasant  Manton,Corridor
+EMM26,EMM,26,Pembroke Ave,Maintenance,"This whole area is poorly paved and full of holes. Pembroke, Oakland, and Radcliff.",Elmhurst  Mt. Pleasant  Manton,Area
+EMM27,EMM,27,Branch Ave @ Woodward Rd,Traffic Calming,So congested! Very narrow bridge @ Wanskuck building. People pass through here to detour. Makes it hard to pass through on a bike because its so congested,Elmhurst  Mt. Pleasant  Manton,Other intersection
+EMM28,EMM,28,Roslyn Ave @ Fairoaks Ave,Parking,"People park @ corners which makes it, so you cant see. Lots of crashes at that intersection. Double parking on both sides of Roslyn.",Elmhurst  Mt. Pleasant  Manton,Corridor
+FH1,FH,1,Broadway @ John J Partington (Service Rd 1),Traffic Calming,The bike lane vanishes! + Traffic calming.,Federal Hill,105
+FH2,FH,2,Broadway @ Knight St,Geometry,"Knight is very narrow, too narrow for street parking. Would be much better served by having usable sidewalks.",Federal Hill,99
+FH3,FH,3,Cranston St @ Cahir St,Traffic Calming,Traffic calming.,Federal Hill,Other intersection
+FH4,FH,4,Westminster St,Traffic Calming,Traffic calming.,Federal Hill,Corridor
+FH6,FH,6,Empire St @ Weybosset St,"Geometry, Safety",No safe way for bikes to go straight/left @ Empire + Weybosset coming up the hill. Interpreted as  on empire headed south. ,Federal Hill,82
+FH7,FH,7,St Johns's Park,Maintenance,Sidewalks/Snow-Ice St Johns Park.,Federal Hill,Area
+FH8,FH,8,Memorial Blvd @ Westminster St,Traffic Ops,"Good place for bikes to go from downtown to S Main, BUT the signals are not sensitive to bikes and lights dont change w/out cars!",Federal Hill,126
+FH9,FH,9,W Fountain St @ Battey St,Crossing,Stop signs needed!,Federal Hill,Other intersection
+FH10,FH,10,Grove St @ Almy St,Crossing,Stop signs needed!,Federal Hill,Other intersection
+FH11,FH,11,Courtland St @ Carpenter St,"Traffic Calming, Crossing","Traffic calming for cut through from Westminster to Atwells including: Almay, Cortland, Marshall, Vinton, Sutton, American.",Federal Hill,Area
+FH12,FH,12,Ridge St @ Franciscan Park,"Parking, Safety","One way behind high rise, cars park in unsafe area, making it very unsafe for bike riders.",Federal Hill,Corridor
+FH13,FH,13,Broadway @ Courtland St,"Crossing, Pedestrian Safety","Crossing Broadway is extremely difficult for pedestrians. Esp at Vinton, Cortland, Dean, etc.",Federal Hill,105
+FH14,FH,14,Messer St @ Marvin St,Traffic Calming,"Those planters, though. On Messer. Lets make a plan to remove those jugs & do alternative traffic calming",Federal Hill,Other intersection
+FH15,FH,15,Sycamore St @ Hudson St,Traffic Calming,"Those planters (again). Crosswalk @ Sycamore & Hudson. All 4 -> painted, noted, super visible to traffic pls.",Federal Hill,Other intersection
+FH16,FH,16,Westminster St @ Parade St,"Traffic Ops, Pedestrian Safety","Pedestrian assistance for most crossing on Westminster esp. Courtland, Tobey etc.",Federal Hill,Corridor
+FH17,FH,17,Atwells Ave @ Dean St,Geometry,"Difficult vehicle turns, and large intersections makes it difficult for peds to cross.",Federal Hill,7
+FH18,FH,18,Knight St @ Grant St,"Geometry, Pedestrian Safety","Vehicles speed along Knight, and with tow way traffic and cars parked on one side, its dangerous for pedestrians. Consider making it one-way SB with dedicated parking on one side and a posted lower speed limit.",Federal Hill,99
+FH19,FH,19,A St @ Cranston St,Access ,Reconnect A st street and repair,Federal Hill,54
+FH20,FH,20,Atwells Ave @ Eagle St,Geometry,Reconfigure intersection to make less complex.,Federal Hill,98
+FH21,FH,21,Westminster St @ Cathedral Square,Geometry,Reconnect Westminster! *yes!,Federal Hill,Other intersection
+FH22,FH,22,Washington St @ John J Partington (Service Rd 1),Geometry,Reduce service roads to 2 lanes max.,Federal Hill,Corridor
+FH23,FH,23,Carpenter St @ Ringgold St,Intersection Control,Stop signs needed on corners of Ringgold  Carpenter  Cargill Streets. Ringgold is used as a cut through needs to stop speeding.,Federal Hill,Other intersection
+FH26,FH,26,Bainbridge Ave,Traffic calming,Traffic calming.,Federal Hill,Corridor
+FH27,FH,27,Knight St @ Ring St,Geometry,"Knight street as two way, providing connection to Atwells/Valley from West End.",Federal Hill,99
+FH29,FH,29,Dean St @ Kenyon St,Geometry,Applies to most weirdly angled intersections in the city but -> square up intersections/reduce radii to eliminate 50 crosswalks at intersections of 2 lane roads.,Federal Hill,General
+FH30,FH,30,Broadway @ Westminster St,"Geometry, Traffic Ops","Everything about this wonky, double 4-way intersections needs to be revised. ",Federal Hill,105
+FH31,FH,31,Cranston St @ Dodge St,Geometry,Cranston is super wide between Citizen/Armory is really wide  bike facility.,Federal Hill,54
+FH32,FH,32,Federal St @ Barker St,Geometry,"Of  so much. ONE WAY, parking, potholes, snow removal,  .. ya know what? Just call me 401  573  5404. I dont have enough room here.",Federal Hill,Corridor
+FCW1,FCW,1,Ship St @ Dyer St,Developmental Opportunity,"Absence of the Ship Street Canal where highway came through was supposed to have place between Jewelry District and Downtown  cafes, restaurants, river walk. Concept never implemented. Strongly endorsed by community but still a bunch of empty lots. Can be a fabulous addition to the city and state. ",Fox Point  College Hill  Wayland,Area
+FCW2,FCW,2,Ship St @ Richmond St,Developmental Opportunity,"Absence of the Ship Street Canal where highway came through was supposed to have place between Jewelry District and Downtown  cafes, restaurants, river walk. Concept never implemented. Strongly endorsed by community but still a bunch of empty lots. Can be a fabulous addition to the city and state.",Fox Point  College Hill  Wayland,#N/A
+FCW3,FCW,3,Ship St @ Clifford St,Developmental Opportunity,"Absence of the Ship Street Canal where highway came through was supposed to have place between Jewelry District and Downtown  cafes, restaurants, river walk. Concept never implemented. Strongly endorsed by community but still a bunch of empty lots. Can be a fabulous addition to the city and state.",Fox Point  College Hill  Wayland,#N/A
+FCW4,FCW,4,Memorial Blvd @ Exchange Terrace,Crossing,Have to cross Memorial Blvd to get to Riverwalk.,Fox Point  College Hill  Wayland,#N/A
+FCW5,FCW,5,Memorial @ Custom House St,Crossing,Have to cross Memorial Blvd to get to Riverwalk.,Fox Point  College Hill  Wayland,126
+FCW6,FCW,6,Gano St @ India St,"Maintenance, Safety","Hairpin turn needs improvement  creepy & scary  dirty, vacancy, broken sidewalks, no lights  ",Fox Point  College Hill  Wayland,#N/A
+FCW7,FCW,7,Point St @ SB I95 Service Road,"Safety, Crossing",Unsafe pedestrian crossing; all double lanes. Pedestrians must run across.,Fox Point  College Hill  Wayland,12
+FCW8,FCW,8,Benefit St @ Benevolent St,Crossing,Crosswalk is wide. Cars accelerate uphill  dangerous for crossing peds. There are blind spots as well.,Fox Point  College Hill  Wayland,Other intersection
+FCW9,FCW,9,Goulding St @ Wickenden St,"Potholes, maintenance","Goulding  alleyway with pot holes. Plowing needs to be for everyone. No parking sign, (interpreted as) [current sign blocked by neighbors tree].",Fox Point  College Hill  Wayland,60
+FCW10,FCW,10,River Rd,Parking,"Parking problem, no parking spaces. People want to enjoy the view.",Fox Point  College Hill  Wayland,Unknown location
+FCW11,FCW,11,Governor @ Wickenden St,"Geometry, traffic ops",Traffic circle removed. What was put in place does not make sense. Awkward gap from Governor to Wickenden. Confusion on who has R.O.W.,Fox Point  College Hill  Wayland,Corridor
+FCW12,FCW,12,South Main St @ Wickenden St,"Geometry, traffic ops","Three stop lights. Circuitous route to I95, bad turn movement, illegal turns for convenient access to I95 should be tickets for illegal lefts turns (city would make a lot of money)",Fox Point  College Hill  Wayland,Unknown location
+FCW13,FCW,13,Ives @ Williams,Crossing,Pedestrian crossing in congested areas. No real attention for safety  [driver] dont look.,Fox Point  College Hill  Wayland,127
+FCW14,FCW,14,Doyle Ave,Cleanliness,Very wide and windy. Trash accumulates along street from dump trucks during trash pickup. May be other contributing factors.,Fox Point  College Hill  Wayland,127
+FCW15,FCW,15,South Main St,Crossing,(interpreted as) [Crossing is challenging around RISD at all intersections south of college],Fox Point  College Hill  Wayland,Other intersection
+FCW16,FCW,16,Gano St,Crossing,Hard to cross; fast traffic,Fox Point  College Hill  Wayland,42
+MHB1,MHB,1,Hope St @ Blackstone ,Crossing,Complicated/indirect ped crossing,Mt. Hope  Hope - Blackstone,Other intersection
+MHB2,MHB,2,Branch Ave @ North Main St,"Pedestrian Issues, Traffic Ops",Ped issues back of connection; light doesnt work efficiently,Mt. Hope  Hope - Blackstone,109
+MHB3,MHB,3,North Main St @ Cemetery St,"Speeding, Control","Speeding, stop sign",Mt. Hope  Hope - Blackstone,44
+MHB4,MHB,4,Camp St between Doyle Ave and Pleasant Street,Cyclist Safety,Bad for cyclists,Mt. Hope  Hope - Blackstone,43
+MHB5,MHB,5,,Maintenance,"Potholes, speeding, noisy vehicles crosswalks",Mt. Hope  Hope - Blackstone,Unknown location
+MHB6,MHB,6,Cypress St between Camp St and Ivy St,Speeding behavior,Speeding,Mt. Hope  Hope - Blackstone,Corridor
+MHB7,MHB,7,Firglade Ave @ Elgin St,"Safety, Maintenance","Illegal activity, plowing issues",Mt. Hope  Hope - Blackstone,Other intersection
+MHB8,MHB,8,Summit Ave @ Edgehill Rd,Speeding Behavior,Speeding,Mt. Hope  Hope - Blackstone,Other intersection
+MHB9,MHB,9,Rochambeau Ave between Hope St and Elmgrove Ave,Speeding Behavior,"Speeding, needs crosswalk",Mt. Hope  Hope - Blackstone,128
+MHB10,MHB,10,Hope St @ Carrington Ave,"Crossing, Maintenance","Potholes, speeding, crosswalk safety",Mt. Hope  Hope - Blackstone,40
+MHB11,MHB,11,Butler Ave @ Blackstone Blvd ,Crossing,Choke point causes issues for multiple modes,Mt. Hope  Hope - Blackstone,63
+MHB12,MHB,12,Morris Ave between Savoy St and Rochambeau Ave,"Maintenance, Cyclist Safety",Dangerous for biking (badly patched/paved),Mt. Hope  Hope - Blackstone,129
+MHB13,MHB,13,SB on Hope St,Behavior,"Bikes slow, cars speed up",Mt. Hope  Hope - Blackstone,Corridor
+MHB14,MHB,14,WB on Doyle Ave @ North Main St,Crossing,"Choke point, confusion",Mt. Hope  Hope - Blackstone,43
+MHB15,MHB,15,"N. Main @ Doyle Ave, esp. at rush hour",Crossing,"Choke point, confusion",Mt. Hope  Hope - Blackstone,43
+MHB16,MHB,16,Olney St between N. Main St to Hope St,"Cyclist Safety, Geometry ","Middle bike lane is dangerous, referring to eastern end of bike lane near Hope Street. Only part where bike near not near to curb.",Mt. Hope  Hope - Blackstone,45
+MHB17,MHB,17,Blackstone Blvd,Maintenance,Paving in poor condition,Mt. Hope  Hope - Blackstone,Corridor
+MHB19,MHB,19,Henderson Bridge,Traffic Ops,Impatient drivers impede access to Henderson Bridge,Mt. Hope  Hope - Blackstone,Corridor
+MHB20,MHB,20,Hope St between Rochambeau Ave + Pawtucket,"Traffic Ops, Maintenance",Lack of hard stop on Hope between Roch + Pawtucket uprooted sidewalks impede pedestrian movement,Mt. Hope  Hope - Blackstone,Corridor
+MHB21,MHB,21,Angell St @ Governor St,Geometry,Angell narrowing could be more elegant,Mt. Hope  Hope - Blackstone,Other intersection
+MHB22,MHB,22,Thayer St @ Meeting St,Geometry,Narrow sidewalk,Mt. Hope  Hope - Blackstone,Other intersection
+MHB23,MHB,23,Elmgrove Ave @ Angell St,Parking ,Choke point causes ped issues (+ vehicle) including double parked cars,Mt. Hope  Hope - Blackstone,Other intersection
+MHB24,MHB,24,Rochambeau Ave @ Cole Ave,"Crossing, Behavior",Blowing STOP sign,Mt. Hope  Hope - Blackstone,Other intersection
+MHB25,MHB,25,Canal St @ Park Row,Pedestrian Safety,Oncoming traffic makes ped traffic perilous,Mt. Hope  Hope - Blackstone,120
+MHB26,MHB,26,Branch Ave @ West River St,Pedestrian,Ped as well as vehicle issues (major)  near to Saver shop.,Mt. Hope  Hope - Blackstone,104
+MHB27,MHB,27,Camp St @ Abbott St ,Traffic Ops,Activation,Mt. Hope  Hope - Blackstone,Other intersection
+MHB28,MHB,28,Elmgrove Ave  @ Blackstone Blvd ,Speeding Behavior,Cars speed through curve + same issue on entrance to Swan St ped issue mainly (all modes).,Mt. Hope  Hope - Blackstone,Other intersection
+MHB29,MHB,29,Gano St @ Amy St,Cyclist Safety,Tough for biking.,Mt. Hope  Hope - Blackstone,Other intersection
+MHB30,MHB,30,Branch Ave @ I95,Crossing,Every crossing difficult  speeding etc.,Mt. Hope  Hope - Blackstone,109
+MHB31,MHB,31,Lloyd Ave @ Broad St and Hope St,"Geometry, Traffic ops",Hard to navigate.,Mt. Hope  Hope - Blackstone,137
+MHB32,MHB,32,Benefit St ,Lighting,Needs lighting.,Mt. Hope  Hope - Blackstone,Corridor
+MHB33,MHB,33,Summit Commons ,"Built Environment, Access",Summit commons parking lot is barrier for bike/ped (connection path?).,Mt. Hope  Hope - Blackstone,Area
+MHB34,MHB,34,Olney St @ N. Main St,Geometry,Eliminate the slip lane at Olney + N. Main. It is dangerous to peds.,Mt. Hope  Hope - Blackstone,45
+MHB35,MHB,35,Summit Ave and 7th St,Parking,Miriam Hospital needs to build parking decks at the R.I Auditorium site and return the surface parking lots on both sides of Summit Ave to house lots.,Mt. Hope  Hope - Blackstone,Other intersection
+OV1,OV,1,Florence St @ Amherst St,Crossings,"Cars dont stop, very dangerous to cross. Walking school bus locations.",Olneyville - Valley,Other intersection
+OV2,OV,2,Atwells Ave @ Bowdoin St,"Geometry, Crossings","Large intersection with lights, difficult to see, dont feel safe driving through. Walking school bus location. Crossings challenging.",Olneyville - Valley,0
+OV3,OV,3,Westminster St @ Stokes St,"Crossings, Maintenance","Crosswalks are fading, trash is abundant.",Olneyville - Valley,Other intersection
+OV4,OV,4,Harris Ave ,Crossings,Dangerous to cross on ramps from Dean St to Rt. 6/10.,Olneyville - Valley,7
+OV5,OV,5,Messer St,Emergency Access,Trees planted in a square bed on Messer St and Sycamore near a fire station  concern about traffic impeding emergency vehicles.,Olneyville - Valley,Corridor
+OV6,OV,6,Steuben St between Manton and Amherst,Pedestrian Access,Missing sidewalks.,Olneyville - Valley,Corridor
+OV7,OV,7,Glenbridge Ave @ Woonasquatucket River,Bike Access,State bridge should include separated bike facility from Adventure Park to Button Hole Drive.,Olneyville - Valley,71
+OV8,OV,8,Valley St @ Donigian Park,Crossings,Add raised crosswalk to Donigian Park.,Olneyville - Valley,139
+OV9,OV,9,Aleppo St @ Woony Greenway,Traffic Calming,Add raised crosswalk to park or speed bumps to reduce travel speeds.,Olneyville - Valley,110
+OV10,OV,10,Sheridan St @ King St,Greenery,Add street trees.,Olneyville - Valley,141
+OV11,OV,11,Douglas Ave,Connectivity,Connect Douglas Ave to Francis St.,Olneyville - Valley,New project
+OV12,OV,12,Manton Ave across from Tanyard Ln,Bike Access,Take bikes off Manton Ave and put next to River in commercial parking area and continue to each medical lot.,Olneyville - Valley,10
+OV13,OV,13,Heath St north of Hartford Ave,Traffic Calming,Add sidewalks and speed bumps to Heath St going into Merino Park.,Olneyville - Valley,117
+OV14,OV,14,Magnolia St @ 6/10 Connector,Connectivity,Connect Magnolia St across 6/10 Connector.,Olneyville - Valley,88
+OV15,OV,15,Promenade St,"Bike Access, Streetscape","Remove travel lane off Promenade and add a separated bikeway. Add green infrastructure, cafes, places to gather, build community.",Olneyville - Valley,100
+OV16,OV,16,Kinsley Ave @ Eagle St,Traffic Calming,"Cars run stop signs, need speed bumps to slow cars on curve.",Olneyville - Valley,131
+OV17,OV,17,San Souci Dr west of Valley St,Parking,"We need parking, but does it have to be in the middle of a major square?",Olneyville - Valley,17
+OV18,OV,18,San Souci Dr @ Manton Ave,Bike Access,Add bike infrastructure on Manton.,Olneyville - Valley,10
+OV19,OV,19,Salmon St south of Manton Ave,Streetscape,"Add street trees, remove graffiti, add entrance to Woonasquatucket greenway.",Olneyville - Valley,118
+OV20,OV,20,Sheridan St @ Woonasquatucket Greenway,Streetscape,"Add street trees, remove graffiti, add entrance to Woonasquatucket greenway.",Olneyville - Valley,141
+OV21,OV,21,Bowdoin St south of Amherst,"Streetscape, Pedestrian Access",Add trees. Need access to bike path and cleaner/safer sidewalks.,Olneyville - Valley,Corridor
+OV22,OV,22,Promenade and Kinsley Ave @ Francis St,Connectivity,Join Promenade and Kinsley Ave to Francis St.,Olneyville - Valley,100
+OV23,OV,23,NBC property near Davis Park,Green Infra,Daylight Pleasant Valley Stream through NBC property from Davis Park.,Olneyville - Valley,8
+OV25,OV,25,Dean St @ Woonasquatucket River,Bike Access,Add bike lanes to Dean St/Bridge.,Olneyville - Valley,7
+SLH1,SLH,1,Daniel Ave @ Plainfield St,Parking,"Illegal parking at intersections of Daniel Ave and Plainfield St, School bus stop, multiple business, unsafe for kids and pedestrian. ",Silver Lake - Hartford,77
+SLH2,SLH,2,Pocasset St,Parking,"Pocasset St should not have parking on both sides, its too narrow.",Silver Lake - Hartford,77
+SLH3,SLH,3,Atwells Ave @ Manton Ave,"Safety, Crossing","Skewed, no crossing, lot of traffic, needs more lighting.",Silver Lake - Hartford,Other intersection
+SLH4,SLH,4,Daniel Ave @ Ethan St,crossing,Better crossing.,Silver Lake - Hartford,Other intersection
+SLH5,SLH,5,Dorchester @ Daniels Ave,crossing,Better crossing.,Silver Lake - Hartford,Other intersection
+SLH6,SLH,6,Mercy St @ Ethan St,crossing,Better crossing.,Silver Lake - Hartford,Other intersection
+SLH7,SLH,7,Hartford Ave @ US Rt 6,Green Infrastructure,Needs more greenery.,Silver Lake - Hartford,Other intersection
+SLH8,SLH,8,Hartford Ave @ Ponagansett Ave,Green Infrastructure,Needs more greenery.,Silver Lake - Hartford,Other intersection
+SLH9,SLH,9,Hartford Ave @ Kinfield St,Green Infrastructure,Needs more greenery.,Silver Lake - Hartford,Other intersection
+SLH10,SLH,10,Manton Ave @ Baltimore St,Green Infrastructure,Needs more greenery.,Silver Lake - Hartford,Other intersection
+SLH11,SLH,11,Manton Ave @ Ortoleva Sr,Green Infrastructure,Needs more greenery.,Silver Lake - Hartford,Other intersection
+SLH12,SLH,12,Manton Ave @ Delaine St,Green Infrastructure,Needs more greenery.,Silver Lake - Hartford,10
+SLH13,SLH,13,Manto Ave @ Hyat St,Green Infrastructure,Needs more greenery.,Silver Lake - Hartford,Other intersection
+SLH15,SLH,15,Glenbridge Ave,"Greenery, safety","Needs sidewalks, greenery, more parking, speeding is a problem, no safe bike path crossing.",Silver Lake - Hartford,70
+SLH16,SLH,16,Harris Ave @ Broadway,safety,Intersections is unsafe.,Silver Lake - Hartford,105
+SLH17,SLH,17,Springfield St,"Geometry, Narrow","Too narrow, a lot of school traffic, need a way for cars to move around the school.",Silver Lake - Hartford,107
+SLH18,SLH,18,Hartford Ave @ Atwood St,Crossing,Need crosswalk from parking lot to post office building.,Silver Lake - Hartford,Other intersection
+SLH19,SLH,19,Plainfield St,Lighting,Needs daylighting at crosswalks & intersections; people park too close.,Silver Lake - Hartford,80
+SLH20,SLH,20,Pilsudski St,Green Infrastructure,Street needs more greenery.,Silver Lake - Hartford,78
+SLH21,SLH,21,Magnolia St @ Pocasset Ave,Crossing,Needs crosswalk.,Silver Lake - Hartford,83
+SLH22,SLH,22,Killingly St,Sidewalk,Sidewalks are challenging; at Jewell St property owner has blocked the sidewalk.,Silver Lake - Hartford,75
+SLH23,SLH,23,Webster Ave,Transit Service,Needs bus service.,Silver Lake - Hartford,Other concern
+SLH24,SLH,24,Olneyville St,Traffic operations,Restrict traffic through Olneyville St  local vs. through traffic.,Silver Lake - Hartford,Unknown location
+SLH25,SLH,25,San Souci Dr @ Olneyville St,Traffic Patterns,San Souci should function as bypass for Olneyville St; needs left turn onto Manton Ave.,Silver Lake - Hartford,17
+SLH26,SLH,26,Hartford Ave,Access,Need a new bridge across the river to Hartfort Ave.,Silver Lake - Hartford,New project
+SLH27,SLH,27,Dike St,Traffic Patterns,Dike St should be partner street to San Souci Dr as one-way pair bypass.,Silver Lake - Hartford,111
+SH1,SH,1,Smith St @ Ruggles St,"Visibility, Speeding","Fear of auto crashes, bad visibility, use of Ruggles as cut-through, speeding",Smith Hill,23
+SH2,SH,2,Whipple @ Douglas,Vehicle volumes,Whipple used as cut through,Smith Hill,Corridor
+SH3,SH,3,Dean St Overpass,Pedestrian safety,High speed on ramp is a danger (for pedestrians),Smith Hill,7
+SH4,SH,4,Douglas Ave @ Chad Brown St,"Geometry, Green infrastructure",Douglas Ave too wide @ cemetery; speeding; not enough trees,Smith Hill,Corridor
+SH5,SH,5,Camden Ave,"Speeding, Maintenance","Cars [drive] too fast, going wrong way, broken sidewalks.",Smith Hill,Corridor
+SH6,SH,6,Douglas Ave @ Wayne St,"Geometry, speeding","Wide street, [vehicles drive] too fast.",Smith Hill,Corridor
+SH7,SH,7,Orms St @ Jefferson St,Pedestrian Crossing,No cars stop at this crosswalk,Smith Hill,Other intersection
+SH8,SH,8,Smith St @ State St,Sidewalk maintenance,Piece of sidewalk missing on state,Smith Hill,38
+SH9,SH,9,N Main St @ Thomas St,"Lighting, Pedestrian Safety","Needs better lighting for pedestrian safety; cars, while turning, cant see peds in crosswalk.  ",Smith Hill,Other intersection
+SH10,SH,10,Hewes St,Lighting,"Lights need to be repaired, (cobra heads), also flickering on adjacent section of N Main.",Smith Hill,Corridor
+SH11,SH,11,N Main St,Crossing,Unsafe ped crossing on North Main.,Smith Hill,Unknown location
+SH12,SH,12,Smith St @ Chalkstone and Smith St @ Orms St,Developmental Opportunity,Commercial Development with green space to connect to parks across the street. Great moment to define the intersection of Smith St @ Chalkstone St and Smith St @ Orms St dialog.,Smith Hill,23
+SP1,SP,1,Broad @ Adelaide,Crossings,Frequent gridlock make crossings unsafe,South Providence,6
+SP2,SP,2,Broad @ Sumter,"Parking, Enforcement","People park in bus stop in front of Night Club, people forced to alight into the middle of the street",South Providence,6
+SP3,SP,3,Eddy @ Thurbers,Traffic Ops,"Congestion, people driving run red lights",South Providence,94
+SP4,SP,4,Elmwood @ Moore,Crossings,Light needed at Knight Library crossing,South Providence,47
+SP5,SP,5,Broad @ Sackett,Cut Throughs,Cut through traffic and non-residential traffic to get to Mi Sueno,South Providence,6
+SP6,SP,6,Elmwood @ Lenox,Traffic ops,Left turn from Elmwood onto Lenox is dangerous,South Providence,47
+SP7,SP,7,Pine @ Somerset,Sidewalks,"Sidewalks are narrow and uneven, people walk in the street",South Providence,5
+SP8,SP,8,Atwells @ Bradford,"Traffic Ops, Pedestrian Safety","Excessive traffic and traffic lights, no room for bikes, people driving cant see pedestrians",South Providence,Other intersection
+SP9,SP,9,Elmwood @ Earl,"Parking, Enforcement",People double park where Elmwood and Reservoir converge,South Providence,47
+SP10,SP,10,Elmwood @ Princeton,"Parking, Enforcement",People park in bus stop,South Providence,47
+SP11,SP,11,Elmwood @ Daboll,,People blow out tires on curbstone,South Providence,47
+SP12,SP,12,Broad @ Miller,Access Mgmt,Exiting parking lot across from the park is difficult,South Providence,6
+SP13,SP,13,Elmwood @ Parkis,"Speeding, Behavior","Jaywalking, pedestrians under the influence, cars speed down turn lane",South Providence,47
+SP14,SP,14,Broad @ Public,Signals,Concern that pedestrian signalization is not coordinated properly with traffic signals,South Providence,6
+SP15,SP,15,Trinity Square,"Geometry, Traffic ops",The square is too congested and there are too many options. People take illegal lefts. The island is not helpful.,South Providence,47
+SP16,SP,16,Francis @ Finance Way,"Crossings, Traffic ops","Dangerous crossing, cars and buses tun right on red",South Providence,142
+SP17,SP,17,Broad @ W. Franklin,"Crossings, Maintenance",Crossings of 95 are unsafe with too many left turning movements. Not shoveled well.,South Providence,Other intersection
+SP18,SP,18,Point east of Eddy,Maintenance,Bridge is not walkable due to snow clearance,South Providence,Corridor
+SP19,SP,19,Peace @ Updike,Base Map,Why isnt this community garden on this map?,South Providence,0
+SP28,SP,28,Trinity Square,"Transit, Traffic Ops",Bus lane Is used as a driving lane when cars are backed up on Broad,South Providence,47
+WSE1,WSE,1,Byfield St between Board St and Eddy St,"Connection, Green Infrastructure ",Nothing very appealing about it. Feels Isolated. Deeper sidewalks for trees. ,Washington Park - South Elmwood,Corridor
+WSE2,WSE,2,Calla St between Cactus St and Broad St,Geometry,Cut through street since it connects to park.,Washington Park - South Elmwood,0
+WSE3,WSE,3,Roger Williams Park,"Speeding, Geometry",Speed limit does not equal design speed. Streets too wide.,Washington Park - South Elmwood,Area
+WSE4,WSE,4,Broad St @ Bailey Blvd,Speeding,Speeds too high despite Chevron Area  people use it to pass.,Washington Park - South Elmwood,93
+WSE5,WSE,5,Allens Ave @ Chapman St,"Speeding, Safety, Lighting, Cleanliness, Maintenance","Too fast  too wide. People dont obey 35mph speed limit, which is also too high. High traffic volumes. Lots of trucks. Poor lighting. Not safe at night. Dirty.",Washington Park - South Elmwood,96
+WSE6,WSE,6,Cladrashs Ave in Roger Williams Park,Speeding,"One way makes the loop fast speed. Not a lot of traffic, but fast traffic.",Washington Park - South Elmwood,Corridor
+WSE7,WSE,7,Broad Street,Maintenance,Snow removal along all bus stops.,Washington Park - South Elmwood,6
+WSE8,WSE,8,Allens Ave,Environmental quality,Asthma (interpreted as) is of concern here. Environmental quality is bad. Need a mask to bike.,Washington Park - South Elmwood,0
+WSE9,WSE,9,Allens Ave between Ernest St and Thurbers Ave,Green Infrastructure,No trees along this section of Allens.,Washington Park - South Elmwood,96
+WSE10,WSE,10,Massachusetts Ave between Allens Ave and Board St,"Speeding, Maintenance",Speeding in the neighborhood between Allens + Eddy (Broad). Needs better trash + recycling + central sweeping maintenance. This area is becoming transient (noticeable increase in the number of students from Johnson & Wales University),Washington Park - South Elmwood,Area
+WSE11,WSE,11,Vermont Ave between Eddy St and Broad St,"Geometry, Street design",More space for kids needed,Washington Park - South Elmwood,Area
+WSE25,WSE,25,Elmwood Ave (US 1) @ Huntington Expy (SR 10) ,"Street design, Maintenance, Cleanliness","Highway ramps make it feel uncomfortable for pedestrian. Bird droppings in underpass area, (need to protect peds). Poor lighting.",Washington Park - South Elmwood,47
+WSE26,WSE,26,Allens Ave between Ernest St and Thurbers Ave,Cleanliness,Scrap metal  creates discomfort,Washington Park - South Elmwood,0
+WSE5b,WSE,5b,Allens Ave @ Chapman St,"Parking, Safety",People park in the bike lane. Scrap metal facility trucks park all along the street. Not safe for bikes.,Washington Park - South Elmwood,96
+WER1,WER,1,Battery @ Carpenter & Fountain St,Cleanliness,"4 way stops, trash, bombed out lot, really tragic.",West End - Elmwood - Reservoir,Corridor
+WER2,WER,2,Car Mech @ Fountain & Winter,Parking,Interpreted as [Drivers park] on sidewalk.,West End - Elmwood - Reservoir,62
+WER3,WER,3,Washington Bridge over I95,Crossing,Crosses too many large highway type roads.,West End - Elmwood - Reservoir,Corridor
+WER4,WER,4,Bridge,,All the City Walk concerns  no redeemable attributes that the neighborhood on either side.,West End - Elmwood - Reservoir,Unknown location
+WER5,WER,5,Point St @ highway ramps,"Speeding, comfort",Very dangerous for pedestrians and panhandlers. Very high speeds. How can this whole area serve: the people who live there? The area puts you on the edge because its so uncomfortable to be.,West End - Elmwood - Reservoir,Other intersection
+WER6,WER,6,Allens Ave,Cleanliness,"Toxicity, mountains of metal, polluting more impoverish, neighborhood, spa threatens to spread even further.",West End - Elmwood - Reservoir,0
+WER7,WER,7,Collier Point Park,Planning,"What is happening with the Collins Point Park? Such promise, but forgotten backwater.",West End - Elmwood - Reservoir,86
+WER8,WER,8,Peace St @ Broad St,"Green infrastructure, economy","St Joes redevelopment needs to be an economic generator/driver for neighborhood. Need more green space, community garden demand.",West End - Elmwood - Reservoir,6
+WER9,WER,9,Knight Library,,Knight Library needs funding so hours can increase.,West End - Elmwood - Reservoir,0
+WER10,WER,10,Mashapaug Pond,cleanliness,Toxicity! Clean it up!,West End - Elmwood - Reservoir,0
+WER11,WER,11,Conduit St @ Summer St,"Cleanliness, aesthetic","Vacant lot, chain linked fence, trash, nearby business impacted, overgrown, parking, ugly.",West End - Elmwood - Reservoir,0
+WER12,WER,12,Elmwood Ave heading into Cranston,Aesthetic,"Chain linked fence @ auto body shop, barrier, not aesthetic, not welcoming.",West End - Elmwood - Reservoir,0
+WER13,WER,13,Whitman St @ Updike St,Maintenance,"Chain linked fence, have tried to get it removed, but concerned that removal will trigger unintentional review by City Commission.",West End - Elmwood - Reservoir,0
+WER14,WER,14,Elmwood Ave @ Greenwich St,"Parking, community garden","Vacant lot owned by the city could be a community garden or place used for parking right now, pretty good sight.",West End - Elmwood - Reservoir,Other intersection
+WER15,WER,15,Whitman St @ Updike St,Potholes,Potholes.,West End - Elmwood - Reservoir,Other intersection
+WER16,WER,16,Ward??,Community,"Make it challenging to work collaboratively, cohesively and it keeps our neighborhood apart.",West End - Elmwood - Reservoir,0
+WER17,WER,17,Thurbers Ave @ Broad St,"Crossing, Safety",Skewed intersection makes it unsafe for pedestrian crossing,West End - Elmwood - Reservoir,6
+WER18,WER,18,Lenox Ave @ Elmwood Ave,"Geometry, Safety",South bound left from Elmwood onto Lenox is unsafe! Homeless food bank on corner + the nearby bus stop is a high activity stop. Unsafe from all directions. Underutilized/old structure that could be put to better use.,West End - Elmwood - Reservoir,47
+WER20,WER,20,Atlantic Ave @ Reservoir Ave,Congestion,Traffic intensifies with usability of the park.,West End - Elmwood - Reservoir,91
+WER21,WER,21,Elmwood Ave @ Princeton Ave,Maintenance,Signs are missing but sign post remain (From Roger William Park all the way up Elmwood).,West End - Elmwood - Reservoir,47
+WER22,WER,22,Russell St @ Elmwood Ave,,"Signs in the median are unsightly. Same broken, RIDOT slow to repair. Would love to see trees in the median. 311 calls should be funneled to direct entity.",West End - Elmwood - Reservoir,47
+WER23,WER,23,Elmwood Ave @ Gallatin St,,Bump-out @ senior center took parking from businesses across the street. ,West End - Elmwood - Reservoir,47
+WER24,WER,24,Melrose St,Bicycle Infrastructure,Melrose is a good alternative for bike route than Elmwood  dont to take parking from business.,West End - Elmwood - Reservoir,Corridor
+WER26,WER,26,Elmwood Ave @ Exit 17,Aesthetic,"Viaduct makes it dark, filled with trash constantly, high traffic, would love to see bridge painted to welcome people to the zoo, Welcome to Elmwood",West End - Elmwood - Reservoir,47
+WER27,WER,27,Melrose St @ Cadilac Dr,Connection,Existing tunnel should be reopened to make direct connection from the neighborhood to the park. Connect to bike route on Melrose (R24),West End - Elmwood - Reservoir,New project
+WER29,WER,29,Cadilac Dr @ Elmwood Ave,Safety,High crash location.,West End - Elmwood - Reservoir,47
+WER30,WER,30,Ontario St @ Elmwood Ave,Green space,A lot of cement and no trees near Walgreens. Needs to be greener.,West End - Elmwood - Reservoir,0
+WER31,WER,31,Trinity Square,Congestion.,Too busy and confusing.,West End - Elmwood - Reservoir,47
+WER32,WER,32,Trinity Square,Wayfinding,"Signage directs people to Broad St, accurately, but signage to Elmwood from Downtown points to the wrong street.",West End - Elmwood - Reservoir,6
+WER33,WER,33,Broad St @ Fricker St,Maintenance,Shoveling needed. Wheel chairs and walkers use the street to travel near the burger king.,West End - Elmwood - Reservoir,Other intersection
+WER34,WER,34,Elmwood Ave @ Burnett St,Snow removal,Auto dealer doesnt clear snow at entrance. Snow removal esp on main street.,West End - Elmwood - Reservoir,47
+WER35,WER,35,Cranston St @ Wadsworth St (Also neighborhood wide),"Illegal Activity, Cleanliness","Drugs, prostitution, trash, police dont pay attention to these issues. It feels very unsafe to just travel outside the house. Shelter in the area feels like it contributes to the problem. If it could move, I would think it might take some of the problems with it.",West End - Elmwood - Reservoir,0
+WER36,WER,36,Cranston St @ Westminster St,Emergency Access,Traffic island (with three) better than current big concrete median. Restricts emergency vehicles access. Intersections aligned confusingly for EB Westminster traffic.,West End - Elmwood - Reservoir,51
+nbd_ID,nbd,ID,Broadway @ Knight St,Geometry,comment,neighborhood,99
+nbd_ID,nbd,ID,Knight St @ Grant St,"Geometry, Pedestrian Safety",comment,neighborhood,99
+nbd_ID,nbd,ID,Knight St @ Ring St,Geometry,comment,neighborhood,99

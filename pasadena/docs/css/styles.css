@@ -1,0 +1,105 @@
+html,
+body,
+#pasadenaMap {
+	padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.legendDiv, .weightingsDiv {
+  background-color: rgba(255, 255, 255, 0.95);
+	width: 300px;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.logoImage {
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.censusCheckboxes, .adtCheckboxes, .vmtCheckbox, .leftCheckboxes, .rightOfWayCheckboxes, .ridershipCheckboxes, .pciCheckboxes, .bikeRouteCheckboxes, .speedCheckboxes {
+  display: none;
+}
+
+.layerSelector .layerSpan {
+	float: left;
+	font: 12px 'Roboto', sans-serif;
+	font-weight: 600;
+  color: #555;
+	background-color: #fff;
+	padding: 3px;
+}
+
+.layerSelector .layerSpan:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+  cursor: pointer;
+}
+
+.layerSelector input:checked + .layerSpan {
+  background-color: #44597f;
+	color: rgba(255, 255, 255, 1);
+}
+
+.layerSlider, .rowSlider {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.layerSelector input {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modeSelector input {
+  display: none;
+}
+
+.modeSelector .modeIcon {
+  border: 1px solid #555;
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 0.75;
+  padding: 5px;
+  margin: 2px;
+}
+
+.modeSelector .modeIcon:hover {
+  background-color: rgba(255, 165, 0, 0.5);
+  cursor: pointer;
+}
+
+.modeSelector input:checked + .modeIcon {
+  border: 1px solid #fff;
+  background-color: rgba(255, 165, 0, 1);
+}
+
+.leaflet-container {
+	font-family: 'Roboto', sans-serif;
+}
+
+.leaflet-popup-content-wrapper {
+	padding-right: 10px;
+	border-radius: 0px;
+	width: 360px;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+}
+
+.leaflet-popup-tip {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+}
+
+.leaflet-popup-content {
+	margin: 5px;
+}
+
+.addScroll {
+	max-height: 87vh;
+	overflow-y: auto;
+}

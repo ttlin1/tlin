@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Jersey City - Vision Zero</title>
+  <!-- <link rel="stylesheet" href="css/styles.min.css"> -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- <link rel="shortcut icon" type="image/png" href="img/logo.png"/> -->
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.10/esri/css/main.css">
+  <script src="https://js.arcgis.com/4.10/"></script>
+
+  <script type="text/plain" id="severity">
+    var severityType = $feature.SEV_INT;
+    // var severityRadiusDict = {"Property damage only/no injury": 1, "Self-reported pain": 1, "Moderate injury": 2, "Serious injury": 3, "Fatal": 4};
+    // return severityRadiusDict[severityType];
+    return severityType;
+  </script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <script src="js/vision_zero.js"></script>
+</head>
+
+<body>
+  <div class="panel-container">
+    <div class="panel-side">
+      <h2><img style="vertical-align: top" src="img/logo.png" alt="Jersey City">Vision Zero Crash Map</h2>
+
+      <div id="infoDiv">
+        <p>Filter by mode:</p>
+        <br>
+        <div id="modeSelector">
+          <label for="mvCheckbox"><input type="checkbox" id="mvCheckbox" class="modeCheckboxes" name="Motorist" checked><span class="modeIcon"><i class="fa fa-car fa-sm" aria-hidden="true"></i></span></label>
+          <label for="bikeCheckbox"><input type="checkbox" id="bikeCheckbox" class="modeCheckboxes" name="Bicyclist" checked><span class="modeIcon"><i class="fa fa-bicycle fa-sm" aria-hidden="true"></i></span></label>
+          <label for="pedCheckbox"><input type="checkbox" id="pedCheckbox" class="modeCheckboxes" name="Pedestrian" checked><span class="modeIcon"><i class="fa fa-street-view fa-sm" aria-hidden="true"></i></span></label>
+          <label for="mcCheckbox"><input type="checkbox" id="mcCheckbox" class="modeCheckboxes" name="Motorcyclist" checked><span class="modeIcon"><i class="fa fa-motorcycle fa-sm" aria-hidden="true"></i></span></label>
+        </div>
+
+        <p>Filter by severity:</p>
+        <div id="severitySelector">
+          <!-- <label for="propertyCheckbox"><input type="checkbox" id="propertyCheckbox" class="severityCheckboxes" name=5 checked><span class="severitySpan">Property Damage Only</span></label>
+          <label for="selfReportCheckbox"><input type="checkbox" id="selfReportCheckbox" class="severityCheckboxes" name=4 checked><span class="severitySpan">Self&dash;Reported Pain</span></label>
+          <label for="moderateCheckbox"><input type="checkbox" id="moderateCheckbox" class="severityCheckboxes" name=3 checked><span class="severitySpan">Moderate Injury</span></label>
+          <label for="seriousCheckbox"><input type="checkbox" id="seriousCheckbox" class="severityCheckboxes" name=2 checked><span class="severitySpan">Serious Injury</span></label>
+          <label for="fatalCheckbox"><input type="checkbox" id="fatalCheckbox" class="severityCheckboxes" name=1 checked><span class="severitySpan">Fatal</span></label> -->
+
+          <label for="fatalCheckbox"><input type="checkbox" id="fatalCheckbox" class="severityCheckboxes" name="fatal" checked><span class="severitySpan">Fatal</span></label>
+          <label for="seriousCheckbox"><input type="checkbox" id="seriousCheckbox" class="severityCheckboxes" name="serious" checked><span class="severitySpan">Serious injury</span></label>
+          <label for="moderateCheckbox"><input type="checkbox" id="moderateCheckbox" class="severityCheckboxes" name="moderate"checked><span class="severitySpan">Moderate injury</span></label>
+
+        </div>
+
+        <p>Filter by date:</p>
+        <div id="dateSelector">
+          <p>From Date:</p>
+          <input type="date" name="from" id="startDate" value="2016-01-01" min="2000-01-01" max="2017-12-31">
+
+          <br>
+
+          <p>End Date:</p>
+          <input type="date" name="end" id="endDate" value="2016-12-31"  min="2000-01-01" max="2017-12-31">
+          <div id="2017warning"></div>
+          <br>
+
+          <button id="filterByDateBtn">Filter by Date</button>
+        </div>
+
+        <div id="totalNumber"></div>
+      </div>
+    </div>
+
+    <div id="mapDiv">
+      <div id="BasemapToggle"></div>
+    </div>
+  </div>
+</body>
+</html>

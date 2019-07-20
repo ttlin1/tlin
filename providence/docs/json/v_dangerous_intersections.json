@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "v_dangerous_intersections",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1287, "legs": 6, "bike_cr_25ft": 5, "ped_cr_25ft": 4, "all_cr_25ft": 9, "sev_bike_cr_25ft": 0, "sev_ped_cr_25ft": 0, "sev_all_cr_25ft": 0 }, "geometry": { "type": "Point", "coordinates": [ -71.419354887208797, 41.804450284627613 ] } },
+{ "type": "Feature", "properties": { "id": 2089, "legs": 6, "bike_cr_25ft": 4, "ped_cr_25ft": 5, "all_cr_25ft": 9, "sev_bike_cr_25ft": 0, "sev_ped_cr_25ft": 0, "sev_all_cr_25ft": 0 }, "geometry": { "type": "Point", "coordinates": [ -71.435494516025187, 41.824485136168931 ] } },
+{ "type": "Feature", "properties": { "id": 1994, "legs": 4, "bike_cr_25ft": 1, "ped_cr_25ft": 8, "all_cr_25ft": 9, "sev_bike_cr_25ft": 0, "sev_ped_cr_25ft": 0, "sev_all_cr_25ft": 0 }, "geometry": { "type": "Point", "coordinates": [ -71.449746224472037, 41.832721067930549 ] } },
+{ "type": "Feature", "properties": { "id": 3203, "legs": 4, "bike_cr_25ft": 5, "ped_cr_25ft": 5, "all_cr_25ft": 10, "sev_bike_cr_25ft": 0, "sev_ped_cr_25ft": 1, "sev_all_cr_25ft": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.40783796139452, 41.825663878020983 ] } },
+{ "type": "Feature", "properties": { "id": 3168, "legs": 8, "bike_cr_25ft": 3, "ped_cr_25ft": 6, "all_cr_25ft": 9, "sev_bike_cr_25ft": 1, "sev_ped_cr_25ft": 1, "sev_all_cr_25ft": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.408879373216223, 41.825320555441813 ] } },
+{ "type": "Feature", "properties": { "id": 3047, "legs": 3, "bike_cr_25ft": 3, "ped_cr_25ft": 6, "all_cr_25ft": 9, "sev_bike_cr_25ft": 1, "sev_ped_cr_25ft": 0, "sev_all_cr_25ft": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.415314767594865, 41.820994688325129 ] } },
+{ "type": "Feature", "properties": { "id": 3088, "legs": 5, "bike_cr_25ft": 3, "ped_cr_25ft": 8, "all_cr_25ft": 11, "sev_bike_cr_25ft": 0, "sev_ped_cr_25ft": 1, "sev_all_cr_25ft": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.412766549511289, 41.824469877979013 ] } },
+{ "type": "Feature", "properties": { "id": 3811, "legs": 5, "bike_cr_25ft": 3, "ped_cr_25ft": 6, "all_cr_25ft": 9, "sev_bike_cr_25ft": 0, "sev_ped_cr_25ft": 0, "sev_all_cr_25ft": 0 }, "geometry": { "type": "Point", "coordinates": [ -71.419976326433257, 41.850283934250641 ] } },
+{ "type": "Feature", "properties": { "id": 1131, "legs": 6, "bike_cr_25ft": 2, "ped_cr_25ft": 7, "all_cr_25ft": 9, "sev_bike_cr_25ft": 0, "sev_ped_cr_25ft": 0, "sev_all_cr_25ft": 0 }, "geometry": { "type": "Point", "coordinates": [ -71.414719674105157, 41.798264815117705 ] } },
+{ "type": "Feature", "properties": { "id": 3022, "legs": 4, "bike_cr_25ft": 6, "ped_cr_25ft": 17, "all_cr_25ft": 23, "sev_bike_cr_25ft": 1, "sev_ped_cr_25ft": 1, "sev_all_cr_25ft": 2 }, "geometry": { "type": "Point", "coordinates": [ -71.416451546637774, 41.821845366207995 ] } }
+]
+}

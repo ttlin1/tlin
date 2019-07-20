@@ -8,8 +8,8 @@ a, p, li, h1, h6 {
   color: #ccc;
 }
 
-h6 {
-  font-size: 24px;
+.titleText {
+  color: #000;
 }
 
 a {
@@ -71,4 +71,54 @@ h1 {
 .footerText {
   position: absolute;
   bottom: 0;
+}
+
+.halfOpacity {
+  /* opacity: 0.25; */
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+/* .halfOpacity:hover {
+  opacity: 1.0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+} */
+
+.overlay-box {
+  font: 14px 'Darker Grotesque', sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  opacity: 0;
+  z-index: 99;
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay-text {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 75%;
+}
+
+#navbarId a:hover {
+  color: #ff8800;
+}
+
+.active {
+  color: #ff8800;
+}
+
+body {
+  overflow-y: hidden;
+  max-width: 100vw;
 }

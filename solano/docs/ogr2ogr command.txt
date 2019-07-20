@@ -1,0 +1,23 @@
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\pedestrian_projects_line.json C:\Users\tlin\projects\solano_county\shp\All_Ped_Proj_Line3.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\pedestrian_projects_point.json C:\Users\tlin\projects\solano_county\shp\All_Ped_Proj_Pnt2_SinglePt.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\benicia_proposed.json C:\Users\tlin\projects\solano_county\shp\BeniciaProposed06112019b.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\county_boundary.json C:\Users\tlin\projects\solano_county\shp\SolanoCounty_Boundary.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\existing_bike.json C:\Users\tlin\projects\solano_county\shp\Countywide_ExistBike.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\rio_vista_proposed.json C:\Users\tlin\projects\solano_county\shp\RioVistaProposed06112019b.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\city_boundaries.json C:\Users\tlin\projects\solano_county\shp\CityBoundary_Clip.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\vacaville_proposed.json C:\Users\tlin\projects\solano_county\shp\VacavilleProposed06142019b.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\fairfield_proposed.json C:\Users\tlin\projects\solano_county\shp\FairfieldProposed06172019b.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\dixon_proposed.json C:\Users\tlin\projects\solano_county\shp\DixonProposed06172019b.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\suisun_proposed.json C:\Users\tlin\projects\solano_county\shp\SuisunCityProposed06172019b.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\solano_county\docs\json\vallejo_proposed.json C:\Users\tlin\projects\solano_county\shp\VallejoProposed062719c.shp
