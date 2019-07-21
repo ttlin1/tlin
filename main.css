@@ -75,7 +75,6 @@ h1 {
 
 .halfOpacity {
   /* opacity: 0.25; */
-  border: 1px solid rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 
