@@ -77,11 +77,7 @@ function addWorks(inType) {
   }
 
   $('#workColumn').html(workColumnString);
-}
 
-addWorks('Portfolio');
-
-$(function() {
   $('.halfOpacity').hover(function() {
     $(this).children('.overlay-box').css("cssText", "background-color: rgba(0, 0, 0, 0.75); opacity: 1; -webkit-transition: opacity 1s; transition: opacity 1s; ");
     // $('.overlay-text').css("cssText", "background-color: rgba(0, 0, 0, 0.25); opacity: 1; -webkit-transition: opacity 1s; transition: opacity 1s; ");
@@ -91,7 +87,9 @@ $(function() {
     $(this).children('.halfOpacity').css("opacity", "0.25");
     $('.overlay-box').css("opacity", "0");
   });
-});
+}
+
+addWorks('Portfolio');
 
 $(".nav .nav-link").on("click", function(){
    $(".nav").find(".active").removeClass("active");
