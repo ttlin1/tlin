@@ -44,12 +44,12 @@ function addWorks(inType) {
     }
   } else if (inType == 'About') {
     workColumnString = `<div class="row">
-                          <div class="col-8 offset-2">
+                          <div class="col-10 offset-1">
                             <h1 id="titleText">About</h1>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-8 offset-2">
+                          <div class="col-10 offset-1">
                             <br>
                             <p><span style="color: #ff8800;">Experience</span> &nbsp;| &nbsp; 8.5 years of GIS work experience (2.5 in the private sector; 6 in the public sector)
                               <br>
@@ -61,12 +61,12 @@ function addWorks(inType) {
                         </div>`;
   } else if (inType == 'Contact') {
     workColumnString = `<div class="row">
-                          <div class="col-8 offset-2">
+                          <div class="col-10 offset-1">
                             <h1 id="titleText">Contact</h1>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-8 offset-2">
+                          <div class="col-10 offset-1">
                             <br>
                             <p><span style="color: #ff8800;">Phone</span> &nbsp;| &nbsp; (971) 533-0577
                               <br>
