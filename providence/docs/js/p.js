@@ -1752,7 +1752,6 @@ function createSurvey(feature, layer) {
               source: google.maps.StreetViewSource.OUTDOOR
             });
         
-        panorama.setPov(panorama.getPhotographerPov());
       }
 
     </script>`;
