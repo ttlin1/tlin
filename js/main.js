@@ -2,15 +2,15 @@
 function addWorks(inType) {
   var workColumnString;
   if (inType == 'Portfolio') {
-    var worksToAdd = ["pasadena", "jersey", "providence", "solano"];
+    var worksToAdd = ["pasadena", "jersey", "metro", "solano"];
     var mapDescriptions = [['Pasadena Complete Streets Blueprint', 
                             '<span class="font-italic">Problem</span> | Prioritize infrastructure improvements<br><span class="font-italic">Solution</span> | Webmap and custom ArcToolboxes',
                             '<span class="font-italic">Platform</span> | Leaflet, Bootstrap, JavaScript'], 
                             ['Jersey City Vision Zero', 
                             '<span class="font-italic">Problem</span> | View city-wide collision data<br><span class="font-italic">Solution</span> | Webmap with queries',
                             '<span class="font-italic">Platform</span> | ArcGIS API for JavaScript, JavaScript'], 
-                            ['Providence Great Streets', 
-                            '<span class="font-italic">Problem</span> | Provide info about the Great Streets program<br><span class="font-italic">Solution</span> | Public participation webmap',
+                            ['LA Metro Bikeshare Crowdsourcing Archive', 
+                            '<span class="font-italic">Problem</span> | Crowdsourcing archive for the LA Metro Bikeshare expansion<br><span class="font-italic">Solution</span> | Analysis and Planning',
                             '<span class="font-italic">Platform</span> | Leaflet, Bootstrap, JavaScript'], 
                             ['Solano County Active Transportation Plan', 
                             '<span class="font-italic">Problem</span> | Obtain feedback from local governments<br><span class="font-italic">Solution</span> | Webmap that allows interactive feedback',

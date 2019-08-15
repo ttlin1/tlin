@@ -9,8 +9,10 @@ function createSurvey(feature, layer) {
 
   if ("Corridor" in feature.properties) {
     project_id = ", " + feature.properties.Proj_ID;
+    layer._leaflet_id = feature.properties.Proj_ID;
   } else {
     project_id = ", " + feature.properties.Project_ID;
+    layer._leaflet_id = feature.properties.Project_ID;
   }
 
   popupText = `<p><strong>${capitalize(feature.properties.Status)} Location</strong>: ${capitalize(feature.properties.Location)}${project_id}</p>`;
@@ -89,6 +91,22 @@ function createSurvey(feature, layer) {
 
     var currentStreetViewID = 'streetViewImagery' + project_id;
 
+    var currentLat = -1;
+    var currentLng = -1;
+
+    if (e.hasOwnProperty('latlng')) {
+      currentLat = e.latlng.lat;
+      currentLng = e.latlng.lng;
+    } else {
+      if (feature.geometry.type != "Point") {
+        currentLat = feature.geometry.coordinates[0][1];
+        currentLng = feature.geometry.coordinates[0][0];
+      } else {
+        currentLat = feature.geometry.coordinates[1];
+        currentLng = feature.geometry.coordinates[0];
+      }
+    }
+
     surveyString += `<div id="${currentStreetViewID}" class="streetViewImagery"></div>
     <script>
       var panorama;
@@ -96,7 +114,7 @@ function createSurvey(feature, layer) {
         panorama = new google.maps.StreetViewPanorama(
             document.getElementById('${currentStreetViewID}'),
             {
-              position: {lat: ${e.latlng.lat}, lng: ${e.latlng.lng}},
+              position: {lat: ${currentLat}, lng: ${currentLng}},
               pov: {heading: 165, pitch: 0},
               zoom: 1,
               linksControl: false,
@@ -236,12 +254,12 @@ function createSurvey(feature, layer) {
       var $form = $('form#surveyForm'), url = c.m.s
 
       e.preventDefault();
-      // $.ajax({
-      //   url: url,
-      //   method: "GET",
-      //   dataType: "json",
-      //   data: valuesToAppend
-      // });
+      $.ajax({
+        url: url,
+        method: "GET",
+        dataType: "json",
+        data: valuesToAppend
+      });
 
       $("#submitMessage").html('<h6><strong>' + thanksSubmitText[selectedLanguageIndex] + '</strong></h6>');
       $('#submitButton').remove();

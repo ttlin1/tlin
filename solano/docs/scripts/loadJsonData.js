@@ -29,6 +29,16 @@ function getBikeDataJson(inJsonFile) {
         var feature = data.features[i];
         var facType = feature.properties.fac_type;
         var status = feature.properties.Status
+        var parkingAction = -1;
+        var laneAction = -1;
+
+        if (feature.properties.hasOwnProperty("ParkingR")) {
+          parkingAction = feature.properties.ParkingR;
+        }
+
+        if (feature.properties.hasOwnProperty("LaneR")) {
+          laneAction = feature.properties.LaneR;
+        }
         
         if (status == "Existing") {
 
@@ -49,6 +59,13 @@ function getBikeDataJson(inJsonFile) {
           proposedArray[facType].push(feature);
 
         }
+
+        if ($.inArray(parkingAction, Object.keys(parkingArray)) > -1) {
+          parkingArray[parkingAction].push(feature);
+        }
+        if ($.inArray(laneAction, Object.keys(laneArray)) > -1) {
+          laneArray[laneAction].push(feature);
+        }
       }
     }
   });
@@ -62,3 +79,4 @@ getBikeDataJson('json/fairfield_proposed.json')
 getBikeDataJson('json/dixon_proposed.json')
 getBikeDataJson('json/suisun_proposed.json')
 getBikeDataJson('json/vallejo_proposed.json')
+getBikeDataJson('json/unincorporated_proposed.json')

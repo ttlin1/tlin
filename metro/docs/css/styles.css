@@ -10,7 +10,7 @@ body {
 	height: 100%;
 }
 
-#participationMapDiv {
+#mapDiv {
 	height: 100%;
 	width: 100%;
 	/* margin: 0 auto; */
@@ -24,9 +24,9 @@ body {
 	font-size: 14px;
 }
 
-/* .leaflet-popup-content {
+.leaflet-popup-content {
 	line-height: 1;
-} */
+}
 
 .leaflet-popup-content-wrapper, .leaflet-popup-tip, .leaflet-tooltip {
 	background-color: rgba(0, 0, 0, 0.75);
@@ -55,13 +55,17 @@ body {
 	color: #000;
 }
 
+.card {
+	color: #fff;
+}
+
 .streetViewImagery {
 	width: 100%;
 	height: 300px;
 }
 
 .leaflet-container {
-	font-family: 'Roboto', sans-serif;
+	font: 12px/1.5 'Roboto', sans-serif;
 }
 
 .legendItem {
@@ -77,34 +81,47 @@ body {
 	opacity: 0.5;
 }
 
-.introDivContainer, .searchDivContainer {
+.introDivContainer {
 	background-color: rgba(255, 255, 255, 0.85);
 	padding: 10px;
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	overflow-y: auto;
 	font-size: 14px;
+	max-height: 98vh;
 }
 
 #drawingSurveyForm label {
-	font-size: 14px;
+	font-size: 16px;
 }
 
-#introDivSpanId h1 {
-	color: #000;
-	font-family: 'Playfair Display', serif;
-	font-size: 32px;
+.distanceLabels {
+	padding: 1px;
+	margin: 0px;
 }
 
-#introDivSpanId a:hover {
-	text-decoration: none;
+.addScroll {
+	max-height: 80vh;
+	overflow-y: auto;
 }
 
-#introDivSpanId h1:hover {
-	-webkit-transition: opacity 0.25s ease-in-out;
-	-moz-transition: opacity 0.25s ease-in-out;
-	-ms-transition: opacity 0.25s ease-in-out;
-	-o-transition: opacity 0.25s ease-in-out;
-	transition: opacity 0.25s ease-in-out;
-	opacity: 0.5;
+#dataTable {
+	height: 325px;
+	width: 626px;
+	overflow: scroll;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.85);
 }
 
+#dataTable tr:hover {
+	background-color: #d98d00;
+	color: #fff;
+}
+
+#dataTable thead th {
+	position: sticky;
+	top: 0;
+}
+
+#streetSearchDiv {
+	width: 300px;
+}

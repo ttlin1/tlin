@@ -26,7 +26,7 @@ map.getPane('labels').style.pointerEvents = 'none';
 CartoDB_PositronOnlyLabels.addTo(map);
 
 var overlays = L.layerGroup();
-var overlaysIDs = [-1, -1, -1, -1, -1, -1, -1, -1]; //0: existing, 1: proposed, 2: pedestrian, 3: pedestrian points, 4: county boundary, 5: drawing, 6: previous drawing, 7: previous drawing points
+var overlaysIDs = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]; //0: existing, 1: proposed, 2: pedestrian, 3: pedestrian points, 4: county boundary, 5: drawing, 6: previous drawing, 7: previous drawing points, 8: parking implementation, 9: lane implementation
 
 var drawnItems  = new L.FeatureGroup();
 map.addLayer(drawnItems);
@@ -57,11 +57,22 @@ var pedSymbologyDict = {'Capital Improvement Program': '#76ab43',
 
 var pedSymbologyDictKeys = Object.keys(pedSymbologyDict);
 
+var implementationDict = {'Both Sides': '#76ab43', 
+                          'No Change': "#3F90A7", 
+                          'One Side': "#ffcc66", 
+                          'Parking or Lane Removal': "#E36F1E", 
+                          'Yes': '#ab4375'};
+
+var implementationDictKeys = Object.keys(implementationDict);
+
 // initialize leaflet json layer variables
 var proposed = L.geoJSON();
 var existing = L.geoJSON();
 var pedestrian = L.geoJSON();
 var pedestrianPoints = L.geoJSON();
+var implementationParking = L.geoJSON();
+var implementationLane = L.geoJSON();
+
 var boundary = L.geoJSON();
 var previousDrawing = L.geoJSON();
 var previousDrawingPoints = L.geoJSON();
@@ -70,12 +81,17 @@ var previousDrawingPoints = L.geoJSON();
 
 var existingArray = {};
 var proposedArray = {};
+var parkingArray = {};
+var laneArray = {};
 
 var activeProposed = [];
 var activeExisting = [];
+var activeParking = [];
+var activeLane = [];
 
 var allExisting = [];
 var allProposed = [];
+var allImp = [];
 
 var pedestrianArray = {};
 var pedestrianActive = [];
@@ -86,6 +102,8 @@ var drawingNumbers = [];
 
 var previousDrawingArray = [];
 var previousDrawingPointsArray = [];
+
+var currentAutocompleteDict = {};
 
 var surveyQuestions = {
                       "1": {"Question": "Prioritization",
@@ -122,6 +140,15 @@ for (var i = 0; i < pedSymbologyDictKeys.length; i++) {
   pedestrianArray[pedSymbologyDictKeys[i]] = [];
   pedestrianActive.push(pedSymbologyDictKeys[i]);
   pedestrianAll.push(pedSymbologyDictKeys[i]);
+}
+
+for (var i = 0; i < implementationDictKeys.length; i++) {
+  parkingArray[implementationDictKeys[i]] = [];
+  laneArray[implementationDictKeys[i]] = [];
+
+  activeParking.push(implementationDictKeys[i]);
+  activeLane.push(implementationDictKeys[i]);
+  allImp.push(implementationDictKeys[i]);
 }
 
 
@@ -269,4 +296,46 @@ introDiv.addTo(map);
 $('#introCloseButton').click(function(){
   $("#introDivSpanId").toggle();
   // sidebarControl.open('info');
+});
+
+// Disable dragging when user's cursor enters the element
+introDiv.getContainer().addEventListener('mouseover', function () {
+  map.dragging.disable();
+});
+
+// Re-enable dragging when user's cursor leaves the element
+introDiv.getContainer().addEventListener('mouseout', function () {
+  map.dragging.enable();
+});
+
+//////////////////////////////////////////////// SEARCH DIV
+
+var searchDiv = L.control({position: 'topleft'});
+
+searchDiv.onAdd = function (map) {
+  this._div = L.DomUtil.create('div', 'searchDiv');
+  this.initializeInfo();
+  return this._div;
+};
+
+searchDiv.initializeInfo = function () {
+  this._div.innerHTML = `
+                        <div class="ui-widget">
+                          <label for="projectIdSearch">Project ID: </label>
+                          <input id="projectIdSearch">
+
+                          <div id="searchResults"></div>
+                        </div>`;
+};
+
+searchDiv.addTo(map);
+
+// Disable dragging when user's cursor enters the element
+searchDiv.getContainer().addEventListener('mouseover', function () {
+  map.dragging.disable();
+});
+
+// Re-enable dragging when user's cursor leaves the element
+searchDiv.getContainer().addEventListener('mouseout', function () {
+  map.dragging.enable();
 });
