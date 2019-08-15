@@ -1,0 +1,34 @@
+01 Describe your ideal development project (your team, your role, your resources).
+
+My role in my ideal development project would be the technical lead in charge of web and geospatial development. The workflow would include regular check-ins with managers who know the project requirements and expectations and who can provide guidance and instruction to ensure that my work is on the right path and will exceed expectations. Supplementary resources would include teammembers who can provide assistance with technical and adminstrative tasks such as setting up a web server. Undoubtedly, the projects I value most push my and my organization's technical knowledge and boundaries and have a meaningful positive impact on my community.
+
+02
+What is your benchmark for a "great" application?
+
+A great application is one that meets and exceeds its purpose. It does not need to be fancy, but it should be intuitive and informative. It should allow users to get or submit the information that is relevant to them and, perhaps, also contain elements of discovery; these would be advanced features for super users to explore. It is important that the application be accessible and functional for regular uers, while also allowing more advanced users to delve into the subject matter in further detail. 
+
+03
+What would you describe the developer's role be in ensuring success with an application portfolio?
+
+The developer's role in ensuring success with an application depends on interpreting the needs of an application's users and bridging the gap that may exist between the technical realities and practical constraints. It is important that an application be developed with its target users and their intended purposes in mind. It's possible to develop a technically impressive application that fails in achieving its intended purpose. The developer's role is to ensure that they are using the right tool for a given job.
+
+04
+What would you duplicate from your current work environment if you were to get this job?
+
+What I like about my current work environment is the freedom to take whatever approach to an application that I think would best fulfill its requirements. For example, I developed a public participation framework that addressed the issues with other frameworks, while expanding the functionality in a manner that I thought would be most beneficial. I was able to meet and exceed the application's requirements.
+
+05
+You may have gained experience providing you with knowledge, skills and abilities relating to this position through avenues outside of professional or traditional work experience (e.g., military, volunteering, community service, transferable skills, workshops, conferences, lived experience, etc.). If so, describe how this experience enhances your interest and qualifications for this position.
+
+Please be sure to list and define all experiences gained through other avenues that relate to this position (including but not limited to organizations, months and years of service, and work performed).
+
+If you choose not to answer this question or do not have applicable experience gained through other avenues, please answer this question with "N/A".
+
+Throughout my career I have continually developed my knowledge, skills and abilities beyond those required for the job that I was in. For example, in my first GIS position after graduate school, I did not need to how to script geoprocessing tasks, but I learned Python in my own time anyway. I realized that it was an invaluable tool that would be useful in that position and every other one afterward. Similarly, once I felt that I had become proficient in Python for geoprocessing, I learned web development with the goal of moving my career toward geospatial development. 
+
+06
+A complete application for this position includes a cover letter and a work sample. Have you attached cover letter and work sample as part of your application materials?
+
+    Yes
+    No
+
