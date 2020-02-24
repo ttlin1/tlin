@@ -1,0 +1,31 @@
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\hexagons_2020_02_10.geojson C:\Users\tlin\projects\Boston_Microhubs\data\shp\hexagons_on_roads_only_2020_1_7.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\bus.json C:\Users\tlin\projects\Boston_Microhubs\data\WalkshedsFromCity_2019_10_29\KeyBusStops\KeyBusStops.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\bluebikes.json C:\Users\tlin\projects\Boston_Microhubs\data\WalkshedsFromCity_2019_10_29\BikeshareStations_June2019\BikeshareStations_June2019.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\zipcar.json C:\Users\tlin\projects\Boston_Microhubs\data\WalkshedsFromCity_2019_10_29\ZipCar_052019\ZipCar_052019.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\ev.json C:\Users\tlin\projects\Boston_Microhubs\data\shp\EV_Charging_Stations.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\subway.json C:\Users\tlin\projects\Boston_Microhubs\data\shp\Subway_Stations.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\subway_walkshed.json C:\Users\tlin\projects\Boston_Microhubs\data\walksheds_2020_02_10\corrected_subway_walkshed.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\bus_walkshed.json C:\Users\tlin\projects\Boston_Microhubs\data\WalkshedsFromCity_2019_10_29\KeyBusRoute_HalfMile_NetworkAnalyst\KeyBusRoute_HalfMile_NetworkAnalyst.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\bluebikes_walkshed.json C:\Users\tlin\projects\Boston_Microhubs\data\WalkshedsFromCity_2019_10_29\Bikeshare_10minwalk\Bikeshare_10minwalk_June2019.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\zipcar_walkshed.json C:\Users\tlin\projects\Boston_Microhubs\data\WalkshedsFromCity_2019_10_29\ZipCar_HalfMile_NetworkAnalyst\ZipCar_HalfMile_NetworkAnalyst.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\ev_walkshed.json C:\Users\tlin\projects\Boston_Microhubs\data\shp\EV_Charging_Stations_Walkshed.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\hex_points.json C:\Users\tlin\projects\Boston_Microhubs\data\shp\hex_points.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\boundary.json C:\Users\tlin\projects\Boston_Microhubs\data\shp\East_Boston_Boundary.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\open_space.json C:\Users\tlin\projects\Boston_Microhubs\data\shp\East_Boston_Open_Space.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\ej_poly.json C:\Users\tlin\projects\Boston_Microhubs\data\mass.gov\EJ_POLY_EAST_BOSTON.shp
+
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Boston_Microhubs\docs\json\landmarks.json C:\Users\tlin\projects\Boston_Microhubs\data\bostonopendata\Boston_Landmarks_Commission_BLC_Landmarks.shp

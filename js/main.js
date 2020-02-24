@@ -2,13 +2,12 @@
 function addWorks(inType) {
   var workColumnString;
   if (inType == 'Portfolio') {
-    var worksToAdd = ["pasadena", "jersey", "metro", "solano"];
-    var mapDescriptions = [['Pasadena Complete Streets Blueprint', 
-                            '<span class="font-italic">Problem</span> | Prioritize infrastructure improvements<br><span class="font-italic">Solution</span> | Webmap and custom ArcToolboxes',
-                            '<span class="font-italic">Platform</span> | Leaflet, Bootstrap, JavaScript'], 
-                            ['Jersey City Vision Zero', 
-                            '<span class="font-italic">Problem</span> | View city-wide collision data<br><span class="font-italic">Solution</span> | Webmap with queries',
-                            '<span class="font-italic">Platform</span> | ArcGIS API for JavaScript, JavaScript'], 
+    var worksToAdd = ["streets", "boston", "metro", "solano"];
+    var mapDescriptions = [['PBOT - Streets 2035', 
+                            '<span class="font-italic">Problem</span> | Asset Managment, Data Visualization<br><span class="font-italic">Solution</span> | Webmap with interactive charts','<span class="font-italic">Platform</span> | Leaflet, Bootstrap, d3, dc.js, Crossfilter'], 
+                            ['Boston Microhubs', 
+                            '<span class="font-italic">Problem</span> | Project Planning and Priortization <br><span class="font-italic">Solution</span> | Webmap with queries',
+                            '<span class="font-italic">Platform</span> | Leaflet, Bootstrap, Google API'], 
                             ['LA Metro Bikeshare Crowdsourcing Archive', 
                             '<span class="font-italic">Problem</span> | Crowdsourcing archive for the LA Metro Bikeshare expansion<br><span class="font-italic">Solution</span> | Analysis and Planning',
                             '<span class="font-italic">Platform</span> | Leaflet, Bootstrap, JavaScript'], 
@@ -24,7 +23,7 @@ function addWorks(inType) {
 
       workColumnString += `
                           <div class="col p-2">
-                            <a href="/${worksToAdd[i]}/docs" target="_blank" class="halfOpacity">
+                            <a href="/${worksToAdd[i]}" target="_blank" class="halfOpacity">
                               <img src="jpg/${worksToAdd[i]}.png" class="img-fluid" style="position: relative;">                        
                               </img>
                               <div class="overlay-box">
@@ -38,7 +37,7 @@ function addWorks(inType) {
 
                           </div>`;
 
-      if ((i -1 ) % 2 == 0) {
+      if ((i - 1 ) % 2 == 0) {
         workColumnString += '</div>';
       }
     }

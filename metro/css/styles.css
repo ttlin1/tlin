@@ -1,0 +1,201 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#containerDiv {
+	height: 100%;
+}
+
+#mapDiv {
+	height: 100%;
+	width: 100%;
+	/* margin: 0 auto; */
+	order: 1;
+}
+
+.legendDiv {
+	/* max-width: 300px; */
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	font-size: 14px;
+}
+
+.leaflet-popup-content {
+	line-height: 1;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip, .leaflet-tooltip {
+	background-color: rgba(0, 0, 0, 0.75);
+	/* background-color: rgba(63, 144, 167, 0.85); */
+	color: #fff;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-tooltip {
+	border-radius: 3px;
+}
+
+.leaflet-tooltip {
+	border: 0px;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+#sideBarDivId {
+	background-color: rgba(0, 0, 0, 0.85);
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 0;
+}
+
+#sideBarDivId a {
+	color: #000;
+}
+
+.card {
+	color: #fff;
+}
+
+.streetViewImagery {
+	width: 100%;
+	height: 300px;
+}
+
+.leaflet-container {
+	font: 12px/1.5 'Roboto', sans-serif;
+}
+
+.legendItem {
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	opacity: 1;
+}
+
+.legendItem:hover {
+	opacity: 0.5;
+}
+
+.introDivContainer {
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	overflow-y: auto;
+	font-size: 14px;
+	max-height: 98vh;
+}
+
+#drawingSurveyForm label {
+	font-size: 16px;
+}
+
+.distanceLabels {
+	padding: 1px;
+	margin: 0px;
+}
+
+.addScroll {
+	max-height: 80vh;
+	overflow-y: auto;
+}
+
+#dataTable {
+	height: 325px;
+	width: 626px;
+	overflow: scroll;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+#dataTable tr:hover {
+	background-color: #d98d00;
+	color: #fff;
+}
+
+#dataTable thead th {
+	position: sticky;
+	top: 0;
+}
+
+#streetSearchDiv {
+	width: 300px;
+}
+
+.smartDiv, .suitabilityDiv {
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	font-size: 14px;
+}
+
+#streetSearchDiv {
+	font-size: 14px;
+}
+
+.verticalTableHeader {
+	text-align:center;
+	white-space:nowrap;
+	transform: rotate(90deg);
+}
+
+#originRidershipTable tbody tr td {
+	font-size: 10px;
+}
+
+#reportLoader {
+	margin-left: 5px;
+	border: 5px solid #f3f3f3; /* Light grey */
+	border-top: 5px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	animation: spin 2s linear infinite;
+	display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes spinner-line-fade-more {
+  0%, 100% {
+    opacity: 0; /* minimum opacity */
+  }
+  1% {
+    opacity: 1;
+  }
+}
+
+@keyframes spinner-line-fade-quick {
+  0%, 39%, 100% {
+    opacity: 0.25; /* minimum opacity */
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@keyframes spinner-line-fade-default {
+  0%, 100% {
+    opacity: 0.22; /* minimum opacity */
+  }
+  1% {
+    opacity: 1;
+  }
+}
+
+#login-box {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	background-color: rgba(255, 255, 255, 0.95);
+}
