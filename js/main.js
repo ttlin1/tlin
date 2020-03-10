@@ -73,6 +73,38 @@ function addWorks(inType) {
                             </p>
                           </div>
                         </div>`;
+  } else if (inType == 'Other Works') {
+    workColumnString = `<div class="row">
+                          <div class="col-10 offset-1">
+                            <h1 id="titleText">Other Works</h1>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-10 offset-1">
+                            <br>
+                            <p><span style="color: #ff8800;">StanCOG</span> &nbsp;| &nbsp; 
+                              <a href="https://tooledesign.github.io/stanislaus/" target="_blank">https://tooledesign.github.io/stanislaus</a>
+                            </p>
+                            <p><span style="color: #ff8800;">Jersey City Vision Zero</span> &nbsp;| &nbsp; 
+                              <a href="https://tooledesign.github.io/jersey_city_vz/" target="_blank">https://tooledesign.github.io/jersey_city_vz</a>
+                            </p>
+                            <p><span style="color: #ff8800;">San Mateo</span> &nbsp;| &nbsp; 
+                              <a href="https://tooledesign.github.io/f043_sanmateobikeplan/" target="_blank">https://tooledesign.github.io/f043_sanmateobikeplan</a>
+                            </p>
+                            <p><span style="color: #ff8800;">Pasadena Complete Streets</span> &nbsp;| &nbsp; 
+                              <a href="https://tooledesign.github.io/G003_P_Pasadena/" target="_blank">https://tooledesign.github.io/G003_P_Pasadena</a>
+                            </p>
+                            <p><span style="color: #ff8800;">San Jose</span> &nbsp;| &nbsp; 
+                              <a href="https://tooledesign.github.io/San_Jose_Bike_Plan/" target="_blank">https://tooledesign.github.io/San_Jose_Bike_Plan</a>
+                            </p>
+                            <p><span style="color: #ff8800;">Ann Arbor</span> &nbsp;| &nbsp; 
+                              <a href="https://tooledesign.github.io/ann_arbor_mobility/" target="_blank">https://tooledesign.github.io/ann_arbor_mobility</a>
+                            </p>
+                            <p><span style="color: #ff8800;">Lowell Multimodal Plan - Survey Results</span> &nbsp;| &nbsp; 
+                              <a href="https://tooledesign.github.io/60168_Lowell/results" target="_blank">https://tooledesign.github.io/60168_Lowell/results</a>
+                            </p>
+                          </div>
+                        </div>`;
   }
 
   $('#workColumn').html(workColumnString);
