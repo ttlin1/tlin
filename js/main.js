@@ -2,9 +2,8 @@
 function addWorks(inType) {
   var workColumnString;
   if (inType == 'Portfolio') {
-    var worksToAdd = ["streets", "boston", "metro", "solano"];
-    var mapDescriptions = [['PBOT - Streets 2035', 
-                            '<span class="font-italic">Problem</span> | Asset Managment, Data Visualization<br><span class="font-italic">Solution</span> | Webmap with interactive charts','<span class="font-italic">Platform</span> | Leaflet, Bootstrap, d3, dc.js, Crossfilter'], 
+    var worksToAdd = ["boston", "metro", "solano"];
+    var mapDescriptions = [
                             ['Boston Microhubs', 
                             '<span class="font-italic">Problem</span> | Project Planning and Priortization <br><span class="font-italic">Solution</span> | Webmap with queries',
                             '<span class="font-italic">Platform</span> | Leaflet, Bootstrap, Google API'], 
