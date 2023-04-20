@@ -1,0 +1,2 @@
+ogr2ogr -f GeoJSON -t_srs EPSG:4326 C:\Users\tlin\projects\Jersey_City_VZ\docs\json\crashes.geojson C:\Users\tlin\projects\6134_JerseyCityVZAP\shp\crashes_2019_01_15.shp
+
